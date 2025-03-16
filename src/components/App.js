@@ -13,10 +13,9 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-      <h2 onClick={() => handleTags("qa")}>*Tag 1</h2>
-        <h2 onClick={() => handleTags("wa")}>*Tag 2</h2>
-        <h2 onClick={() => handleTags("ed")}>*Tag 3</h2>
-
+       <li onClick={() => handleTags("qa")}>Tab 1</li>
+        <li onClick={() => handleTags("qa")}>Tab 2</li>
+        <li onClick={() => handleTags("qa")}>Tab 3</li>
         <p>Choosen Tag is: {tags} </p>
     </div>
   )
